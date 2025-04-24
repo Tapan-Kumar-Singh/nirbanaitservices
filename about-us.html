@@ -25,9 +25,36 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .problem-section {
+      background-color: #111;
+      color: #fff;
+      padding: 80px 0;
+    }
+    .problem-heading {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: rgb(4, 222, 246);
+    }
+    .problem-item {
+      margin-bottom: 30px;
+    }
+    .problem-icon {
+      font-size: 2rem;
+      color: #0d6efd;
+      margin-right: 15px;
+    }
+    .problem-text h5 {
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: rgb(4, 222, 246);
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -44,7 +71,7 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about-us.html">About</a></li>
-          <li><a href="contact-us.html">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="leadership.html">Leadership</a></li>
           <li><a href="services.html">Team</a></li>
         </ul>
@@ -60,8 +87,20 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-
-     <h1 class="text-center col-lg-12">This is about us page</h1>
+        <div class="col-lg-12 text-center">
+          <section class="bg-transparent d-flex align-items-center text-center text-white" style="min-height: 90vh;">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10">
+                  <h1 class="display-4 fw-bold mb-3">Redefining Recruitment for the Tech-First Future</h1>
+                  <p class="lead mb-4">Closing the talent gap with AI, empathy, and efficiency—because hiring smart shouldn't be hard.</p>
+                  <a href="#solution" class="btn btn-light btn-lg px-4 rounded-pill fw-semibold">Discover Our Approach</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        </div>
 
     </section>
 
@@ -75,209 +114,100 @@
 
 
       <div class="container">
-
-
+        <div class="row">
+          <div class="col-lg-12">
+            <section class="problem-section">
+              <div class="container">
+                <h2 class="text-center problem-heading">The Hiring Crisis No One Wants to Talk About</h2>
+                <div class="row justify-content-center">
+                  <div class="col-md-10">
+                    <div class="row">
+                      <!-- Problem Item -->
+                      <div class="col-md-6 problem-item d-flex">
+                        <div class="problem-icon"><i class="bi bi-bar-chart-line"></i></div>
+                        <div class="problem-text">
+                          <h5>Increasing Skill Gap</h5>
+                          <p>Emerging tech is evolving faster than the available talent pool.</p>
+                        </div>
+                      </div>
+                      <!-- Problem Item -->
+                      <div class="col-md-6 problem-item d-flex">
+                        <div class="problem-icon"><i class="bi bi-clock-history"></i></div>
+                        <div class="problem-text">
+                          <h5>Inefficient Hiring Cycles</h5>
+                          <p>Delays in recruitment lead to lost opportunities and candidate drop-offs.</p>
+                        </div>
+                      </div>
+                      <!-- Problem Item -->
+                      <div class="col-md-6 problem-item d-flex">
+                        <div class="problem-icon"><i class="bi bi-emoji-frown"></i></div>
+                        <div class="problem-text">
+                          <h5>Culture Misalignment</h5>
+                          <p>Resumes don’t capture values, personality, or team fit.</p>
+                        </div>
+                      </div>
+                      <!-- Problem Item -->
+                      <div class="col-md-6 problem-item d-flex">
+                        <div class="problem-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <div class="problem-text">
+                          <h5>High Turnover</h5>
+                          <p>Bad hires cost time, morale, and productivity—again and again.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
       </div>
 
     </section><!-- /Features Section -->
 
-
-
-
-
-
-
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-     
-
+    <section class="solution-section py-5 bg-light my-5" style="margin-bottom: 100px;">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+        <h2 class="text-center mb-5 fw-bold">The Nirvana Approach: Smarter, Faster, Human-Centric Hiring</h2>
+        <div class="row g-4">
+          <!-- Card 1: Smart Sourcing -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <div class="solution-icon mb-3 text-primary">
+                  <i class="bi bi-lightbulb-fill" style="font-size: 2.5rem;"></i>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
-                  exercitationem iure minima enim corporis et voluptate.</p>
+                <h5 class="card-title fw-bold">Smart Sourcing</h5>
+                <p class="card-text">AI, curated networks, and trusted referrals to identify top talent fast and efficiently.</p>
               </div>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis.
-                  Voluptate sed quas reiciendis animi neque sapiente.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut
-                  architecto porro aspernatur molestiae modi.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque
-                  ut possimus ipsum officia.</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="500">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday</p>
-                  <p>9:00AM - 05:00PM</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
-
           </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+          <!-- Card 2: Human-Centric Evaluation -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <div class="solution-icon mb-3 text-success">
+                  <i class="bi bi-person-check-fill" style="font-size: 2.5rem;"></i>
                 </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
+                <h5 class="card-title fw-bold">Human-Centric Evaluation</h5>
+                <p class="card-text">Deep behavioral and skill-based assessments for better team fit and long-term success.</p>
               </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+            </div>
+          </div>
+          <!-- Card 3: Tech-Enhanced Process -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <div class="solution-icon mb-3 text-info">
+                  <i class="bi bi-cpu-fill" style="font-size: 2.5rem;"></i>
+                </div>
+                <h5 class="card-title fw-bold">Tech-Enhanced Process</h5>
+                <p class="card-text">Automation, feedback loops, and dashboards to accelerate hiring and reduce friction.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /Contact Section -->
 
   </main>
 
