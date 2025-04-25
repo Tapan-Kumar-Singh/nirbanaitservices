@@ -39,6 +39,9 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+
+
+
 .light-background {
   --background-color: #f9f8ff;
   --surface-color: #ffffff;
@@ -172,10 +175,16 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+  font-size: 1.5rem; /* Adjust the size based on your design */
+  font-weight: bold;
+  background: linear-gradient(45deg, #00aaff, #0066ff); /* Blue gradient */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .header .btn-getstarted,
