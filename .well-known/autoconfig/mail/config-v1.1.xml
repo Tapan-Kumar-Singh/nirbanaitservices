@@ -6,19 +6,19 @@
     <displayShortName>Nirvana Mail</displayShortName>
 
     <incomingServer type="imap">
-      <hostname>mail.nirvanaitservices.com</hostname>
+      <hostname>imap.hostinger.com</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
-      <authentication>password-cleartext</authentication>
+      <authentication>plain</authentication>
     </incomingServer>
 
     <outgoingServer type="smtp">
-      <hostname>mail.nirvanaitservices.com</hostname>
+      <hostname>smtp.hostinger.com</hostname>
       <port>465</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
-      <authentication>password-cleartext</authentication>
+      <authentication>plain</authentication>
     </outgoingServer>
   </emailProvider>
 </clientConfig>
