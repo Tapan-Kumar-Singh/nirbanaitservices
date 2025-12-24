@@ -6,7 +6,7 @@
     <displayShortName>Nirvana Mail</displayShortName>
 
     <incomingServer type="imap">
-      <hostname>mail.hostinger.com</hostname>
+      <hostname>mail.nirvanaitservices.com</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
@@ -14,7 +14,7 @@
     </incomingServer>
 
     <outgoingServer type="smtp">
-      <hostname>mail.hostinger.com</hostname>
+      <hostname>mail.nirvanaitservices.com</hostname>
       <port>465</port>
       <socketType>SSL</socketType>
       <username>%EMAILADDRESS%</username>
